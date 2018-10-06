@@ -4,6 +4,7 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.selenium.test.Test02"/>
+      <class name="com.selenium.test.Test03"/>
         </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
