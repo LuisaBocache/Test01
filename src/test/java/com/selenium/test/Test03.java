@@ -18,3 +18,4 @@ public class Test03 extends ConfiguracionBase {
 		cartPage.validCartItem();
 	}
 }
+ 

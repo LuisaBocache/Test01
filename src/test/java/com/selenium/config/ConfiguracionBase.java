@@ -10,7 +10,7 @@ public class ConfiguracionBase {
 	
 	public WebDriver driver;
 
-	@BeforeMethod()
+	@BeforeMethod() 
 	public void getDriver() {
 		System.setProperty("webdriver.chrome.driver", "..//exampleSelenium/Drivers/chromedriver.exe");
 		driver = new ChromeDriver();

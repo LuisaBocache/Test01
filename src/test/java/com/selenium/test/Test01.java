@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 public class Test01 {
-	@Test
+	@Test 
 	public void exampleTest() throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver","../exampleSelenium/Drivers/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
